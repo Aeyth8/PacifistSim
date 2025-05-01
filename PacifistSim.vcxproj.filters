@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Aeyth8">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="MinHook">
+      <UniqueIdentifier>{f24ee6a0-450b-4236-8756-bb68933fb404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinHook\src">
+      <UniqueIdentifier>{8094b7d9-916b-4873-81d3-875432afcaad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinHook\src\hde">
+      <UniqueIdentifier>{ffb6cd6a-15d1-4b8a-b3b0-dfec984e918b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Aeyth8\Hooks">
+      <UniqueIdentifier>{85fef8e5-306e-4645-9135-c16c85c85d02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyFixup.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrealContainers.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Aeyth8\Proxy.hpp">
+      <Filter>Aeyth8</Filter>
+    </ClInclude>
+    <ClInclude Include="Aeyth8\Logger.hpp">
+      <Filter>Aeyth8</Filter>
+    </ClInclude>
+    <ClInclude Include="Aeyth8\Pointers.hpp">
+      <Filter>Aeyth8</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\MinHook.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\buffer.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\trampoline.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\hde\hde32.h">
+      <Filter>MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\hde\hde64.h">
+      <Filter>MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\hde\pstdint.h">
+      <Filter>MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\hde\table32.h">
+      <Filter>MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\hde\table64.h">
+      <Filter>MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Aeyth8\Hooks\Hooks.hpp">
+      <Filter>Aeyth8\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Aeyth8\Hooks\UFunctions.hpp">
+      <Filter>Aeyth8\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Aeyth8\Hooks\Noclip.hpp">
+      <Filter>Aeyth8\Hooks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Basic.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\CoreUObject_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Engine_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\buffer.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\hook.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\trampoline.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\hde\hde32.c">
+      <Filter>MinHook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\hde\hde64.c">
+      <Filter>MinHook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Willie_BP_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NameCollisions.inl">
+      <Filter>SDK</Filter>
+    </None>
+  </ItemGroup>
+</Project>

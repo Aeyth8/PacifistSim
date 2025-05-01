@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PacifistSim", "PacifistSim.vcxproj", "{A76D9AEC-70BC-4ABD-95DC-E621FD1F9292}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A76D9AEC-70BC-4ABD-95DC-E621FD1F9292}.Release|x64.ActiveCfg = Release|x64
+		{A76D9AEC-70BC-4ABD-95DC-E621FD1F9292}.Release|x64.Build.0 = Release|x64
+		{A76D9AEC-70BC-4ABD-95DC-E621FD1F9292}.Release|x86.ActiveCfg = Release|Win32
+		{A76D9AEC-70BC-4ABD-95DC-E621FD1F9292}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C1E5378-A149-4A20-8769-AD384F7CDD72}
+	EndGlobalSection
+EndGlobal
